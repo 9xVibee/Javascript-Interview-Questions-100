@@ -9,6 +9,7 @@
 function countCharacterOccurance(str, char) {
   let smallChar = char.toLowerCase(),
     capitalChar = char.toUpperCase();
+
   let count = 0;
 
   for (let i = 0; i < str.length; i++) {
